@@ -1,0 +1,80 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    .no-scrollbar::-webkit-scrollbar {
+        display: none;
+    }
+    
+    /* Hide scrollbar for IE, Edge and Firefox */
+    .no-scrollbar {
+        -ms-overflow-style: none;  /* IE and Edge */
+        scrollbar-width: none;  /* Firefox */
+    }
+
+    .scrollbar::-webkit-scrollbar {
+        width: 8px;
+        height: 8px;
+      }
+    
+      .scrollbar::-webkit-scrollbar-track {
+        /* border-radius: 100vh; */
+        border-radius: 0;
+        background: #e2e8f0;
+      }
+    
+      .scrollbar::-webkit-scrollbar-thumb {
+        background: #0F172A;
+        border-radius: 100vh;
+        border: 2px solid #e2e8f0;
+      }
+    
+      .scrollbar::-webkit-scrollbar-thumb:hover {
+        background: #0F172A;
+      }
+    
+      .sidebar_scrollbar::-webkit-scrollbar {
+        width: 8px;
+        height: 8px;
+      }
+    
+      .sidebar_scrollbar::-webkit-scrollbar-track {
+        /* border-radius: 100vh; */
+        border-radius: 0;
+        background: #2F365F;
+      }
+    
+      .sidebar_scrollbar::-webkit-scrollbar-thumb {
+        background: #e2e8f0;
+        border-radius: 100vh;
+        border: 2px solid #2F365F;
+      }
+    
+      .sidebar_scrollbar::-webkit-scrollbar-thumb:hover {
+        background: #E2E8F0;
+      }
+  }
+
+  .react-multiple-carousel__arrow{
+    min-height : 30px !important;
+    min-width: 30px !important;
+  }
+
+  .react-multiple-carousel__arrow--right{
+    margin-right: -20px !important;
+    margin-top: -230px !important;
+  }
+
+  .react-multiple-carousel__arrow--left{
+    margin-left: -20px !important;
+    margin-top: -230px !important;
+  }
+
+
+
+
+
+
+
+  

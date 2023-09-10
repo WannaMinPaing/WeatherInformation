@@ -1,0 +1,8 @@
+.circle{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    /* background: linear-gradient(to bottom, #5454d8 40%, #84adea 50%); */
+    background:#3d88f0;
+    /* filter: blur(50px); */
+}
